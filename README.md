@@ -54,7 +54,9 @@ pip install -r requirements.txt
 4. Create a `.env` file in the root directory of the project and add your environment variables. For example:
 
 ```env
-API_KEY=your_api_key_here
+OLLAMA_NUM_PARALLEL=4
+OLLAMA_MAX_LOADED_MODELS=4
+OLLAMA_SERVE_COMMAND=ollama serve
 ```
 
 ## Usage
