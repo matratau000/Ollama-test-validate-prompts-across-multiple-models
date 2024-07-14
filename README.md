@@ -74,7 +74,7 @@ python test_and_validate.py
 
 ## Expected Output
 
-After running the script, you can expect an output similar to the following in the `analysis_results.json` file:
+After running the script with the initial question "What colors are in the rainbow", you can expect an output similar to the following in the `analysis_results.json` file:
 
 ```json
 {
