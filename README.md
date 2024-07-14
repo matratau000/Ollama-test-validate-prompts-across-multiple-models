@@ -1,6 +1,6 @@
 # Ollama-test-validate-prompts-across-multiple-models
 
-Send out one prompt and have the responses be delivered to multiple models and quickly validate using another model of choice to analyze your results.
+Send a single prompt to multiple AI models, validate their responses using a specified model, and analyze the results efficiently.
 
 ## Table of Contents
 
@@ -14,13 +14,13 @@ Send out one prompt and have the responses be delivered to multiple models and q
 
 ## Introduction
 
-This project allows you to send a single prompt to multiple AI models and validate their responses using another model. The validation results are then analyzed and summarized.
+This project enables users to send a single prompt to multiple AI models, validate their responses using a specified model, and analyze the validation results comprehensively.
 
 ## Features
 
-- Send prompts to multiple AI models.
-- Validate responses using a specified model.
-- Analyze and summarize the validation results.
+- Dispatch prompts to multiple AI models.
+- Validate responses using a designated model.
+- Analyze and summarize validation results.
 
 ## Installation
 
@@ -33,37 +33,37 @@ This project allows you to send a single prompt to multiple AI models and valida
 
 1. Clone the repository:
 
-    ```sh
-    git clone https://github.com/yourusername/Ollama-test-validate-prompts-across-multiple-models.git
-    cd Ollama-test-validate-prompts-across-multiple-models
-    ```
+```sh
+git clone https://github.com/yourusername/Ollama-test-validate-prompts-across-multiple-models.git
+cd Ollama-test-validate-prompts-across-multiple-models
+```
 
 2. Create and activate a virtual environment:
 
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+```sh
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
 3. Install the required packages:
 
-    ```sh
-    pip install -r requirements.txt
-    ```
+```sh
+pip install -r requirements.txt
+```
 
 4. Create a `.env` file in the root directory of the project and add your environment variables. For example:
 
-    ```env
-    API_KEY=your_api_key_here
-    ```
+```env
+API_KEY=your_api_key_here
+```
 
 ## Usage
 
-1. Run the main script:
+1. Execute the main script:
 
-    ```sh
-    python test_and_validate.py
-    ```
+```sh
+python test_and_validate.py
+```
 
 2. Enter your question when prompted.
 
@@ -71,13 +71,13 @@ This project allows you to send a single prompt to multiple AI models and valida
 
 ## Configuration
 
-- **Models**: You can configure the models to be used in the `main` function of `test_and_validate.py`.
+- **Models**: Configure the models to be used in the `main` function of `test_and_validate.py`.
 - **Number of Requests**: Adjust the `num_requests` variable to change the number of requests sent to each model.
 - **Analysis Model**: Set the `analysis_model` variable to specify which model to use for validation.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Please follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -88,4 +88,4 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
