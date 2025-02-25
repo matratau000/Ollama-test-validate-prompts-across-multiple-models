@@ -1,3 +1,7 @@
 asyncio
-ollama
-python-dotenv
+ollama>=0.1.17
+python-dotenv>=1.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+tabulate>=0.9.0
